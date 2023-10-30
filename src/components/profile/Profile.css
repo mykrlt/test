@@ -1,0 +1,35 @@
+main {
+    background:linear-gradient(to right,#101114,#020203);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.Panel {
+    display:flex;
+    flex-direction: column;
+    width: 90vh;
+}
+
+.User {
+    display: flex;
+    
+
+}
+.User-avatar {
+    width:15vh;
+    height: 15vh;
+    background-color: aliceblue; ;
+}
+
+.User-info {
+    display:flex;
+    margin-left: 3vh;
+}
+
+.Hr {
+    width: 90vh;
+}
